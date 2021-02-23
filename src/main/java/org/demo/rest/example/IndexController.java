@@ -9,6 +9,7 @@ import org.apache.struts2.convention.annotation.Results;
 })
 public class IndexController {
 
+
     @Action("/")
     public String index() {
         return "success";
